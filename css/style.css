@@ -5,10 +5,24 @@
 .head {
   position: relative;
   width: 100%;
-  height: 670px;
-  background-image: url("../images/pages/typography-01-770x420.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%; }
+  height: 670px; }
+  .head img {
+    width: 100%;
+    height: 100%; }
+
+.menutab .fa-bars {
+  position: fixed;
+  background-color: white;
+  color: #18afd3;
+  padding: 13px 15px;
+  border-radius: 50%;
+  top: 50px;
+  left: 30px;
+  z-index: 1000; }
+  .menutab .fa-bars:hover {
+    transition: 0.5s;
+    background-color: #18afd3;
+    color: white; }
 
 .headcantainer {
   position: absolute;
@@ -19,15 +33,6 @@
   height: 670px; }
   .headcantainer img {
     margin-top: 20px; }
-  .headcantainer .menutab .fa-bars {
-    background-color: white;
-    color: #18afd3;
-    padding: 13px 15px;
-    border-radius: 50%;
-    margin: 50px 0 0 30px; }
-    .headcantainer .menutab .fa-bars:hover {
-      background-color: #18afd3;
-      color: white; }
   .headcantainer .phone .fa-phone {
     margin-top: 20px;
     padding: 18px 20px;
@@ -61,7 +66,8 @@
     margin-top: 40px;
     background-color: #f57e57;
     color: white;
-    padding: 5px; }
+    padding: 5px;
+    border-radius: 20px; }
     .headcantainer .btn-default:hover {
       transition: 0.5s;
       background-color: #18afd3; }
@@ -79,8 +85,37 @@
     opacity: 0.3;
     float: left;
     cursor: pointer; }
+    .headcantainer .dot:hover {
+      transition: 0.5s;
+      opacity: 1; }
   .headcantainer .active {
     opacity: 1; }
+  .headcantainer .log {
+    position: relative; }
+    .headcantainer .log .login {
+      width: 85%;
+      height: 420px;
+      background-color: black;
+      opacity: 0.3;
+      border-radius: 5px;
+      margin-top: 80px;
+      margin-left: 50px; }
+    .headcantainer .log .input-group {
+      position: absolute;
+      left: 100px;
+      top: 100px; }
+      .headcantainer .log .input-group .form-control {
+        border-radius: 5px; }
+      .headcantainer .log .input-group h3 {
+        color: white; }
+      .headcantainer .log .input-group p {
+        color: whitesmoke;
+        margin-bottom: 0;
+        padding-top: 20px; }
+      .headcantainer .log .input-group .selectpicker {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px; }
 
 .opacityhead {
   width: 100%;
