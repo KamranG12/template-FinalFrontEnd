@@ -12,4 +12,34 @@ $(document).ready(function() {
       $('.headh1').html(ary_headh1[x]);
       $('.headp').html(ary_headp[x]);
    })
+
+
+
+   $('.menutab').click(function(){
+       $('.menu').animate({left: '0'}, "slow");
+   })
+
+
+
+   $('.fa-times').click(function(){
+       $('.menu').animate({left: '-400'}, "slow");
+   })
+
+   $('.headcantainer').click(function(){
+       $('.menu').animate({left: '-400'}, "slow");
+   })
+
+
+   $('.add').click(function(){
+       if($('.nameinput').val()=='' && $('.emailinput').val()==''){
+           $('.nameinput').attr('value','The text field is required.').css('color','red');
+           $('.emailinput').attr('value','The email is required.').css('color','red');
+       }else if($('.nameinput').val()==''){
+           $('.nameinput').attr('value','The text field is required.').css('color','red');
+       }else if($('.emailinput').val()==''){
+           $('.emailinput').attr('value','The email is required.').css('color','red');
+       }
+   })
  }); 
+
+
