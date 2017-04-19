@@ -1,3 +1,6 @@
+[class*='col-'] {
+  padding: 0; }
+
 .row {
   margin-right: 0px;
   margin-left: 0px; }
@@ -419,6 +422,78 @@
       opacity: 1; }
   .quality .secondpart .active1 {
     opacity: 1; }
+
+.team h1 {
+  margin-top: 80px;
+  text-align: center; }
+.team .line {
+  height: 3px;
+  width: 6%;
+  margin-left: 47%;
+  background-color: #f57e57;
+  margin-bottom: 40px; }
+.team .mainteam {
+  overflow: hidden;
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  height: 400px; }
+  .team .mainteam .fullteam {
+    width: 300%;
+    height: 200px;
+    position: absolute; }
+    .team .mainteam .fullteam .mediadiv {
+      width: 11.11%;
+      height: 100%;
+      float: left;
+      margin-top: 0; }
+      .team .mainteam .fullteam .mediadiv .media {
+        width: 80%; }
+        .team .mainteam .fullteam .mediadiv .media h4 {
+          color: #18afd3;
+          font-size: 35px; }
+        .team .mainteam .fullteam .mediadiv .media p {
+          color: lightslategray; }
+        .team .mainteam .fullteam .mediadiv .media .media-body .fa-phone {
+          float: left;
+          color: #18afd3; }
+        .team .mainteam .fullteam .mediadiv .media .media-body a {
+          float: left;
+          color: black;
+          font-size: 20px; }
+      .team .mainteam .fullteam .mediadiv .p {
+        color: lightslategray;
+        font-size: 16px;
+        margin-right: 10%;
+        margin-top: 20px; }
+      .team .mainteam .fullteam .mediadiv button {
+        margin-top: 30px;
+        background-color: #f57e57;
+        color: white;
+        padding: 5px;
+        border-radius: 20px; }
+        .team .mainteam .fullteam .mediadiv button:hover {
+          transition: 0.5s;
+          background-color: #18afd3; }
+.team .threedots2 {
+  width: 120px;
+  height: 40px;
+  margin-left: 45%; }
+.team .dot2 {
+  width: 15px;
+  height: 15px;
+  margin-top: 20px;
+  margin-left: 10px;
+  background-color: #f57e57;
+  border-radius: 50%;
+  opacity: 0.3;
+  float: left;
+  cursor: pointer; }
+  .team .dot2:hover {
+    transition: 0.5s;
+    opacity: 1; }
+.team .active2 {
+  opacity: 1; }
 
 @media only screen and (max-width: 1024px) {
   .headcantainer .phone {

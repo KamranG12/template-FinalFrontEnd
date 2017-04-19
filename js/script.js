@@ -72,6 +72,17 @@ $(document).ready(function() {
       $(this).addClass('active1');
       $('.fullsize').animate({left: y*(-100)+'%'});
    })
+
+
+
+   $('.dot2').click(function(){
+      var y=$(this).attr('index');
+      $('.threedots2 div').each(function(){
+          $(this).removeClass('active2')
+      });
+      $(this).addClass('active2');
+      $('.fullteam').animate({left: y*(-100)+'%'},'slow');
+   })
  }); 
 
 
