@@ -40,6 +40,38 @@ $(document).ready(function() {
            $('.emailinput').attr('value','The email is required.').css('color','red');
        }
    })
+
+
+   $('#flowbutton1 h4').mouseover(function(){
+       $('#figur1').animate({left: '0'},'100')
+   })
+   $('#flowbutton1').mouseout(function(){
+       $('#figur1').animate({left: '-12'})
+   })
+
+   $('#flowbutton2 h4').mouseover(function(){
+       $('#figur2').animate({left: '0'},'100')
+   })
+   $('#flowbutton2').mouseout(function(){
+       $('#figur2').animate({left: '-12'})
+   })
+
+   $('#flowbutton3 h4').mouseover(function(){
+       $('#figur3').animate({left: '0'},'100')
+   })
+   $('#flowbutton3').mouseout(function(){
+       $('#figur3').animate({left: '-12'})
+   })
+
+
+   $('.dot1').click(function(){
+      var y=$(this).attr('index');
+      $('.threedots1 div').each(function(){
+          $(this).removeClass('active1')
+      });
+      $(this).addClass('active1');
+      $('.fullsize').animate({left: y*(-100)+'%'});
+   })
  }); 
 
 

@@ -13,6 +13,7 @@
 
 .menutab .fa-bars {
   position: fixed;
+  border: 1px solid whitesmoke;
   background-color: white;
   color: #18afd3;
   padding: 13px 15px;
@@ -230,7 +231,7 @@
   color: white;
   padding: 13px 15px;
   border-radius: 50%;
-  top: 90%;
+  top: 85%;
   left: 93%;
   z-index: 1; }
   .abovebottom:hover {
@@ -241,7 +242,7 @@
 .ourwork {
   background-color: #f1f3f9;
   width: 100%;
-  height: 680px; }
+  height: 700px; }
   .ourwork h1 {
     margin-top: 80px;
     text-align: center; }
@@ -274,6 +275,150 @@
       .ourwork .picwork .care:hover {
         transition: 0.5s;
         background-color: #f57e57; }
+  .ourwork .flowbutton {
+    position: relative;
+    overflow: hidden;
+    height: 40px; }
+    .ourwork .flowbutton .figur {
+      left: -12px;
+      position: absolute; }
+      .ourwork .flowbutton .figur i, .ourwork .flowbutton .figur h4 {
+        float: left; }
+      .ourwork .flowbutton .figur i {
+        margin-top: 12px; }
+      .ourwork .flowbutton .figur h4 {
+        width: 80%;
+        margin: 0;
+        padding: 10px;
+        font-size: 20px; }
+  .ourwork .viewall {
+    margin-top: 40px;
+    text-align: center; }
+    .ourwork .viewall button {
+      background-color: #18afd3;
+      color: white;
+      padding: 5px;
+      border-radius: 20px; }
+      .ourwork .viewall button:hover {
+        transition: 0.5s;
+        background-color: #f57e57; }
+
+.quality .col-md-12 {
+  padding: 0; }
+.quality .col-md-6 {
+  padding: 0; }
+.quality .firstpart {
+  height: 680px;
+  position: relative;
+  background-image: url("../images/backgrounds/background-05-960x678.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat; }
+  .quality .firstpart .firstpartp {
+    position: absolute;
+    height: 50%;
+    width: 80%;
+    top: 25%;
+    left: 10%;
+    color: white; }
+    .quality .firstpart .firstpartp h1 {
+      font-size: 50px; }
+    .quality .firstpart .firstpartp p {
+      margin-top: 30px;
+      font-size: 16px; }
+    .quality .firstpart .firstpartp button {
+      margin-top: 40px;
+      background-color: #f57e57;
+      color: white;
+      padding: 5px;
+      border-radius: 20px; }
+      .quality .firstpart .firstpartp button:hover {
+        transition: 0.5s;
+        background-color: #18afd3; }
+.quality .secondpart {
+  position: relative;
+  height: 680px; }
+  .quality .secondpart .secondpartp {
+    position: absolute;
+    height: 70%;
+    width: 80%;
+    top: 15%;
+    left: 15%; }
+    .quality .secondpart .secondpartp h1 {
+      font-size: 40px; }
+    .quality .secondpart .secondpartp .line {
+      margin-top: 30px;
+      width: 15%;
+      height: 3px;
+      background-color: #f57e57; }
+    .quality .secondpart .secondpartp .wordekran {
+      position: relative;
+      margin-top: 5%;
+      width: 80%;
+      height: 50%;
+      overflow: hidden; }
+      .quality .secondpart .secondpartp .wordekran .fullsize {
+        position: absolute;
+        width: 300%;
+        height: 100%; }
+        .quality .secondpart .secondpartp .wordekran .fullsize .word1 {
+          width: 33.333%;
+          height: 100%;
+          float: left; }
+          .quality .secondpart .secondpartp .wordekran .fullsize .word1 i {
+            color: #18afd3; }
+          .quality .secondpart .secondpartp .wordekran .fullsize .word1 p {
+            font-size: 20px;
+            margin: 20px 0;
+            color: lightslategray; }
+          .quality .secondpart .secondpartp .wordekran .fullsize .word1 .col-md-12 {
+            width: 90%;
+            height: 80px; }
+            .quality .secondpart .secondpartp .wordekran .fullsize .word1 .col-md-12 .image {
+              width: 100%;
+              height: 80px;
+              border-radius: 50%;
+              background-image: url("../images/pages/our-team-05-270x270.jpg");
+              background-size: 100% 100%;
+              background-repeat: no-repeat; }
+            .quality .secondpart .secondpartp .wordekran .fullsize .word1 .col-md-12 .image1 {
+              width: 100%;
+              height: 80px;
+              border-radius: 50%;
+              background-image: url("../images/pages/our-team-11-270x270.jpg");
+              background-size: 100% 100%;
+              background-repeat: no-repeat; }
+            .quality .secondpart .secondpartp .wordekran .fullsize .word1 .col-md-12 .image2 {
+              width: 100%;
+              height: 80px;
+              border-radius: 50%;
+              background-image: url("../images/pages/our-team-07-270x270.jpg");
+              background-size: 100% 100%;
+              background-repeat: no-repeat; }
+            .quality .secondpart .secondpartp .wordekran .fullsize .word1 .col-md-12 h3 {
+              color: #18afd3; }
+            .quality .secondpart .secondpartp .wordekran .fullsize .word1 .col-md-12 p {
+              margin-top: 10px;
+              font-size: 15px;
+              color: lightslategray; }
+  .quality .secondpart .threedots1 {
+    width: 120px;
+    height: 40px;
+    margin-top: 50px; }
+  .quality .secondpart .dot1 {
+    width: 15px;
+    height: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #18afd3;
+    border-radius: 50%;
+    opacity: 0.3;
+    float: left;
+    cursor: pointer; }
+    .quality .secondpart .dot1:hover {
+      transition: 0.5s;
+      opacity: 1; }
+  .quality .secondpart .active1 {
+    opacity: 1; }
 
 @media only screen and (max-width: 1024px) {
   .headcantainer .phone {
