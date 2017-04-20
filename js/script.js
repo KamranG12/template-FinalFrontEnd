@@ -83,6 +83,12 @@ $(document).ready(function() {
       $(this).addClass('active2');
       $('.fullteam').animate({left: y*(-100)+'%'},'slow');
    })
+   //  var z=0;
+   // $('.abovebottom').click(function(){
+   //     $('.whool').animate({top: 1305+'%'})
+   //     z=parseInt($('.whool').css('top'));
+   //     console.log(z)
+   // })
  }); 
 
 

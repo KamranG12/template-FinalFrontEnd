@@ -301,7 +301,11 @@ $color4:#f57e57;
             border-radius: 50%;
             top: 85%;
             left: 93%;
-            z-index: 1;
+            z-index: 2;
+            a{
+                width: 15px;
+                height: 15px;
+            }
             &:hover{
                 transition: 0.5s;
                 background-color: $color3;
@@ -771,7 +775,49 @@ $color4:#f57e57;
     }
 }
 
+.footer{
+    height: 220px;
+    width: 100%;
+    background-color: $color3;
+    .col-md-12{
+        width: 90%;
+        height: 220px;
+        margin-left: 5%;
+        .information{
+            margin: 0 2%;
+            width: 96;
+            margin-top: 20%;
+            text-align: center;
+            p{
+               color: lightgray;
+               font-size: 16px;
+               margin-top: 5px;
+            }
+            .social{
+                float: left;
+                padding: 20px;
+                background-color: $color1;
+                color: $color2;
+                border-radius: 50%;
+                margin: 0 2%;
+                &:hover{
+                    transition: 0.5;
+                    background-color: $color4;
+                    color: $color1;
+                }
+            }
+        }
+    }
+}
 
+.whool{
+    position: absolute;
+}
+
+.whoolekran{
+    overflow: hidden;
+    height: 6082px;
+}
 
 
 
@@ -808,6 +854,34 @@ $color4:#f57e57;
     .schedual{
         margin-top: 20%;
     }
+    .ourwork{
+        .picwork{
+            margin-bottom: 20px;
+        }
+    }
+    .quality{
+        margin-top: 580px;
+    }
+    
+    .quality .secondpart .secondpartp .wordekran .fullsize .word1 .col-md-12 .image{
+        width: 20%;
+    }
+
+    .quality .secondpart .secondpartp .wordekran .fullsize .word1 .col-md-12 .col-md-9{
+        margin-top: -21px;
+    }
+
+    .quality .secondpart .secondpartp .wordekran .fullsize .word1{
+        height: 100%;
+    }
+
+    .footer{
+        margin-top: 1000px;
+        height: 700px;
+    }
+    .footer .col-md-12 .information .fa-facebook{
+        margin-left: 25%;
+    }
  }
 
 
@@ -823,5 +897,10 @@ $color4:#f57e57;
     }
     .opacityhead{
          height: 1206px;
+    }
+
+    .footer{
+        margin-top: 1000px;
+        height: 400px;
     }
   }
