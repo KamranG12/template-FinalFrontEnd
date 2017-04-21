@@ -631,13 +631,6 @@
           background-color: #f57e57;
           color: white; }
 
-.whool {
-  position: absolute; }
-
-.whoolekran {
-  overflow: hidden;
-  height: 6082px; }
-
 @media only screen and (max-width: 1024px) {
   .headcantainer .phone {
     display: none; }
