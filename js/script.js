@@ -19,13 +19,11 @@ $(document).ready(function() {
        $('.menu').animate({left: '0'}, "slow");
    })
 
-
-
-   $('.fa-times').click(function(){
+     $('.whool').click(function(){
        $('.menu').animate({left: '-400'}, "slow");
    })
 
-   $('.headcantainer').click(function(){
+   $('.fa-times').click(function(){
        $('.menu').animate({left: '-400'}, "slow");
    })
 
@@ -83,12 +81,11 @@ $(document).ready(function() {
       $(this).addClass('active2');
       $('.fullteam').animate({left: y*(-100)+'%'},'slow');
    })
-   //  var z=0;
-   // $('.abovebottom').click(function(){
-   //     $('.whool').animate({top: 1305+'%'})
-   //     z=parseInt($('.whool').css('top'));
-   //     console.log(z)
-   // })
+
+   $('.abovebottom').click(function(){
+       $('html, body').animate({ scrollTop: 0 }, "slow")
+       return false;
+   })
  }); 
 
 
