@@ -43,13 +43,62 @@
   margin-left: 5%;
   height: 60px;
   background-color: #18AFD3;
-  border-radius: 5px; }
+  border-radius: 5px;
+  overflow: hidden; }
+  .menu .searchmenuhead {
+    position: absolute;
+    display: none;
+    height: 100%;
+    width: 100%;
+    float: left;
+    margin-top: -10px;
+    background-color: #18AFD3;
+    border: none; }
+  .menu .fa-times {
+    position: absolute;
+    display: none;
+    top: 15;
+    left: 96%;
+    color: white; }
+  .menu .ekran {
+    margin: 10px; }
+    .menu .ekran .fa-search {
+      float: left;
+      color: white;
+      margin-top: 4px;
+      padding: 5px; }
+    .menu .ekran ul {
+      float: left;
+      margin-top: 4px; }
+      .menu .ekran ul li {
+        display: inline;
+        padding: 22px; }
+        .menu .ekran ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 20px; }
 
 .fixed {
   position: fixed;
+  z-index: 1;
   top: 0;
   width: 100%;
   margin-left: 0; }
+  .fixed .ekran {
+    margin: 10px;
+    margin-left: 5%; }
+    .fixed .ekran ul {
+      z-index: 1; }
+  .fixed .searchmenuhead {
+    width: 90%;
+    margin-left: 5%;
+    display: none; }
+  .fixed .fa-times {
+    position: absolute;
+    display: none;
+    top: 15;
+    left: 93%;
+    color: white; }
 
 .content {
   width: 100%;
