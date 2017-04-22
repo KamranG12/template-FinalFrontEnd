@@ -19,16 +19,24 @@ $(document).ready(function() {
     })
 
     $('.pageli').mouseover(function(){
-       $('.page').css('display','block');
+       $('.page').css({
+        display: 'block',
+    });
    })
     $('.page').mouseover(function(){
-       $('.page').css('display','block');
+       $('.page').css({
+        display: 'block',   
+    });
    })
 
     $('.pageli').mouseout(function(){
-       $('.page').css('display','none');
+       $('.page').css({
+        display: 'none', 
+    });
    })
     $('.page').mouseout(function(){
-       $('.page').css('display','none');
+       $('.page').css({
+        display: 'none',     
+    });
    })
  }); 

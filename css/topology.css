@@ -47,10 +47,10 @@
   .menu .searchmenuhead {
     position: absolute;
     display: none;
-    height: 100%;
+    height: 65px;
     width: 100%;
     float: left;
-    margin-top: -15px;
+    margin-top: -17px;
     background-color: #18AFD3;
     border: none;
     border-color: #18AFD3; }
@@ -72,9 +72,62 @@
       width: 90%;
       float: left;
       margin-top: 8px; }
+      .menu .ekran ul .gallery:hover {
+        transition: 1s; }
+        .menu .ekran ul .gallery:hover ul {
+          display: block; }
+      .menu .ekran ul .gallery ul {
+        margin-top: 13px;
+        margin-left: 63.5%;
+        width: 200px;
+        height: 280px;
+        background-color: white;
+        display: none; }
+        .menu .ekran ul .gallery ul li {
+          padding: 20px;
+          margin-left: -20px;
+          display: block; }
+          .menu .ekran ul .gallery ul li:hover {
+            background-color: white; }
+            .menu .ekran ul .gallery ul li:hover a {
+              margin-left: 20px;
+              color: #F57E57; }
+          .menu .ekran ul .gallery ul li:hover:before {
+            content: '>';
+            color: #F57E57; }
+          .menu .ekran ul .gallery ul li a {
+            font-size: 16px;
+            color: #18AFD3; }
+      .menu .ekran ul .blog:hover {
+        transition: 1s; }
+        .menu .ekran ul .blog:hover ul {
+          display: block; }
+      .menu .ekran ul .blog ul {
+        margin-top: 13px;
+        margin-left: 74%;
+        width: 200px;
+        height: 310px;
+        background-color: white;
+        display: none; }
+        .menu .ekran ul .blog ul li {
+          padding: 20px;
+          margin-left: -20px;
+          display: block; }
+          .menu .ekran ul .blog ul li:hover {
+            background-color: white; }
+            .menu .ekran ul .blog ul li:hover a {
+              margin-left: 20px;
+              color: #F57E57; }
+          .menu .ekran ul .blog ul li:hover:before {
+            content: '>';
+            color: #F57E57; }
+          .menu .ekran ul .blog ul li a {
+            font-size: 16px;
+            color: #18AFD3; }
       .menu .ekran ul .pageli {
         background-color: #F57E57; }
       .menu .ekran ul li {
+        margin-left: 0px;
         display: inline;
         padding: 28px 1% 16px 1%; }
         .menu .ekran ul li:hover {
@@ -131,12 +184,19 @@
     margin-left: 5%; }
     .fixed .ekran ul {
       z-index: 1; }
+      .fixed .ekran ul .gallery ul {
+        margin-top: 20px;
+        margin-left: 60%; }
+      .fixed .ekran ul .blog ul {
+        margin-top: 20px;
+        margin-left: 70%; }
       .fixed .ekran ul li {
         padding: 28px 1% 23px 1%; }
   .fixed .searchmenuhead {
     width: 90%;
     height: 100%;
     margin-left: 5%;
+    margin-top: -10px;
     display: none;
     border: none; }
   .fixed .fa-times {

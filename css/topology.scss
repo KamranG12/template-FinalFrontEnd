@@ -67,10 +67,10 @@ $p-color: #868686;
     .searchmenuhead{
         position: absolute;
         display: none;
-        height: 100%;
+        height: 65px;
         width: 100%;
         float: left;
-        margin-top: -15px;
+        margin-top: -17px;
         background-color: $main_color;
         border: none;
         border-color: $main_color;
@@ -91,6 +91,80 @@ $p-color: #868686;
     }
       margin: 17px;
       ul {
+        .gallery{
+            &:hover{
+                transition: 1s;
+                ul{
+                    display: block;
+                }
+            }
+            ul{
+                li{
+                    padding:20px;
+                    margin-left: -20px;
+                    display: block;
+                    &:hover{
+                        background-color:white;
+                        a{
+                            margin-left: 20px;
+                        color: $orange_;
+                    }
+                    }
+                    &:hover:before{
+                        content: '>';
+                        color: $orange_;
+                    }
+                    a{
+                        font-size: 16px;
+                        color: $main_color;
+                    }
+                }
+                margin-top: 13px;
+                margin-left: 63.5%;
+            width: 200px;
+            height: 280px;
+            background-color: white;
+            display: none;
+          }
+        }
+
+        .blog{
+            &:hover{
+                transition: 1s;
+                ul{
+                    display: block;
+                }
+            }
+            ul{
+                li{
+                    padding:20px;
+                    margin-left: -20px;
+                    display: block;
+                    &:hover{
+                        background-color:white;
+                        a{
+                            margin-left: 20px;
+                        color: $orange_;
+                    }
+                    }
+                    &:hover:before{
+                        content: '>';
+                        color: $orange_;
+                    }
+                    a{
+                        font-size: 16px;
+                        color: $main_color;
+                    }
+                }
+                margin-top: 13px;
+                margin-left: 74%;
+            width: 200px;
+            height: 310px;
+            background-color: white;
+            display: none;
+          }
+        }
+
         .pageli{
             background-color: $orange_;
         }
@@ -99,6 +173,7 @@ $p-color: #868686;
         float: left;
          margin-top: 8px;
         li{
+            margin-left: 0px;
         display: inline;
         padding: 28px 1% 16px 1%;
         &:hover{
@@ -175,6 +250,18 @@ $p-color: #868686;
     .ekran{
         ul{
         z-index: 1;
+        .gallery{
+            ul{
+             margin-top: 20px;
+             margin-left: 60%;
+            }
+        }
+        .blog{
+            ul{
+             margin-top: 20px;
+             margin-left: 70%;
+            }
+        }
         li{
           padding: 28px 1% 23px 1%;  
         }
@@ -186,6 +273,7 @@ $p-color: #868686;
         width: 90%;
         height: 100%;
       margin-left: 5%;
+      margin-top: -10px;
       display: none;
       border: none;
     }
