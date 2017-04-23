@@ -52,6 +52,31 @@ $p-color: #868686;
         background-image: url('../images/backgrounds/background-06.jpg');
         background-position-x: -200px;
         height: 344px;
+        position: relative;
+        h1{
+            position: absolute;
+            font-size: 60px;
+            color: white;
+            top: 30%;
+            left: 10%;
+        }
+        ul{
+            position: absolute;
+            top: 90%;
+            left: 8%;
+            li{
+                display: inline;
+                margin-left: 20px;
+                color: white;
+                a{
+                    color: white;
+                }
+                i{
+                    margin-left: 10px;
+                    color: white;
+                }
+            }
+        }
     }
 
 }
@@ -292,10 +317,126 @@ $p-color: #868686;
 
 }
 
-.content {
-    width: 100%;
-    height: 500px;
-    background: gray;
+.typography {
+    margin: 0 7%;
+    .col-md-12{
+        margin: 40px;
+        .rightmargin{
+            margin-right: 32%;
+        }
+
+        h1{
+            font-size: 60px;
+        }
+        p{
+            color: #a28686;
+        }
+        .word1{
+            .line{
+                width: 95%;
+                height: 1px;
+                background-color: gray;
+                margin: 10px 0;
+                div{
+                    float: left;
+                    width: 20%;
+                    height: 100%;
+                    background-color:red;
+                }
+            }
+            i{
+                color: $main_color;
+            }
+            .col-md-10{
+                h3{
+                    color: $orange_;
+                }
+            }
+            margin-right: 35%;
+            p{
+                font-size: 20px;
+            }
+            .image{
+                width: 80px;
+                height: 80px;
+            }
+                img{
+                    border-radius: 50%;
+                    height: 100%;
+                    width: 100%;
+                }
+        }
+        .element{
+            margin-right: 35%;
+            p{
+                font-size: 16px;
+                .graycolor{
+                    color: gray;
+                }
+                mark{
+                    background-color: $main_color;
+                }
+                span{
+                    font-style: italic;
+                }
+                .linethrough{
+                    text-decoration: line-through;
+                }
+                .underline{
+                        text-decoration: underline;
+                }
+            }
+           .line{
+                width: 95%;
+                height: 1px;
+                background-color: gray;
+                margin: 10px 0;
+                div{
+                    float: left;
+                    width: 20%;
+                    height: 100%;
+                    background-color:red;
+                }
+            } 
+        }
+        .orunlist{
+            margin-right: 35%;
+            p{
+                font-size: 16px;
+            }
+            ul{
+                li{
+                    font-size: 16px;
+                    padding-left: 20px;
+                    padding-bottom: 5px;
+                    color: #a28686;
+                  i{
+                    margin-right: 10px;
+                    color: $main_color;
+                  }
+            }
+            }
+            ol{
+                li{
+                   font-size: 16px;
+                    padding-bottom: 5px;
+                    color: #a28686; 
+                }
+            }
+            .line{
+                width: 95%;
+                height: 1px;
+                background-color: gray;
+                margin: 10px 0;
+                div{
+                    float: left;
+                    width: 20%;
+                    height: 100%;
+                    background-color:red;
+                }
+            }
+        }
+    }
 }
 
 
@@ -369,6 +510,7 @@ $p-color: #868686;
                 top: 0px;
                 width: 100%;
                 float: left;
+                z-index: 0;
             }
             button {
                 &:hover {
@@ -377,7 +519,6 @@ $p-color: #868686;
                 }
                 border-color: #F54B0F;
                 background: #F54B0F;
-                z-index: 2;
                 font-family: 'Oswald', sans-serif;
                 position: absolute;
                 left: 180px;

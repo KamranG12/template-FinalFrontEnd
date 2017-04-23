@@ -34,7 +34,27 @@
   .header .img {
     background-image: url("../images/backgrounds/background-06.jpg");
     background-position-x: -200px;
-    height: 344px; }
+    height: 344px;
+    position: relative; }
+    .header .img h1 {
+      position: absolute;
+      font-size: 60px;
+      color: white;
+      top: 30%;
+      left: 10%; }
+    .header .img ul {
+      position: absolute;
+      top: 90%;
+      left: 8%; }
+      .header .img ul li {
+        display: inline;
+        margin-left: 20px;
+        color: white; }
+        .header .img ul li a {
+          color: white; }
+        .header .img ul li i {
+          margin-left: 10px;
+          color: white; }
 
 .menu {
   position: absolute;
@@ -210,10 +230,91 @@
     margin-left: 5%;
     width: 90%; }
 
-.content {
-  width: 100%;
-  height: 500px;
-  background: gray; }
+.typography {
+  margin: 0 7%; }
+  .typography .col-md-12 {
+    margin: 40px; }
+    .typography .col-md-12 .rightmargin {
+      margin-right: 32%; }
+    .typography .col-md-12 h1 {
+      font-size: 60px; }
+    .typography .col-md-12 p {
+      color: #a28686; }
+    .typography .col-md-12 .word1 {
+      margin-right: 35%; }
+      .typography .col-md-12 .word1 .line {
+        width: 95%;
+        height: 1px;
+        background-color: gray;
+        margin: 10px 0; }
+        .typography .col-md-12 .word1 .line div {
+          float: left;
+          width: 20%;
+          height: 100%;
+          background-color: red; }
+      .typography .col-md-12 .word1 i {
+        color: #18AFD3; }
+      .typography .col-md-12 .word1 .col-md-10 h3 {
+        color: #F57E57; }
+      .typography .col-md-12 .word1 p {
+        font-size: 20px; }
+      .typography .col-md-12 .word1 .image {
+        width: 80px;
+        height: 80px; }
+      .typography .col-md-12 .word1 img {
+        border-radius: 50%;
+        height: 100%;
+        width: 100%; }
+    .typography .col-md-12 .element {
+      margin-right: 35%; }
+      .typography .col-md-12 .element p {
+        font-size: 16px; }
+        .typography .col-md-12 .element p .graycolor {
+          color: gray; }
+        .typography .col-md-12 .element p mark {
+          background-color: #18AFD3; }
+        .typography .col-md-12 .element p span {
+          font-style: italic; }
+        .typography .col-md-12 .element p .linethrough {
+          text-decoration: line-through; }
+        .typography .col-md-12 .element p .underline {
+          text-decoration: underline; }
+      .typography .col-md-12 .element .line {
+        width: 95%;
+        height: 1px;
+        background-color: gray;
+        margin: 10px 0; }
+        .typography .col-md-12 .element .line div {
+          float: left;
+          width: 20%;
+          height: 100%;
+          background-color: red; }
+    .typography .col-md-12 .orunlist {
+      margin-right: 35%; }
+      .typography .col-md-12 .orunlist p {
+        font-size: 16px; }
+      .typography .col-md-12 .orunlist ul li {
+        font-size: 16px;
+        padding-left: 20px;
+        padding-bottom: 5px;
+        color: #a28686; }
+        .typography .col-md-12 .orunlist ul li i {
+          margin-right: 10px;
+          color: #18AFD3; }
+      .typography .col-md-12 .orunlist ol li {
+        font-size: 16px;
+        padding-bottom: 5px;
+        color: #a28686; }
+      .typography .col-md-12 .orunlist .line {
+        width: 95%;
+        height: 1px;
+        background-color: gray;
+        margin: 10px 0; }
+        .typography .col-md-12 .orunlist .line div {
+          float: left;
+          width: 20%;
+          height: 100%;
+          background-color: red; }
 
 .footer {
   height: auto;
@@ -261,11 +362,11 @@
       left: 0px;
       top: 0px;
       width: 100%;
-      float: left; }
+      float: left;
+      z-index: 0; }
     .footer .rightpart .form-inline .input-group button {
       border-color: #F54B0F;
       background: #F54B0F;
-      z-index: 2;
       font-family: 'Oswald', sans-serif;
       position: absolute;
       left: 180px;
