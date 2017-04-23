@@ -249,7 +249,7 @@
         margin: 10px 0; }
         .typography .col-md-12 .word1 .line div {
           float: left;
-          width: 20%;
+          width: 10%;
           height: 100%;
           background-color: red; }
       .typography .col-md-12 .word1 i {
@@ -286,7 +286,7 @@
         margin: 10px 0; }
         .typography .col-md-12 .element .line div {
           float: left;
-          width: 20%;
+          width: 10%;
           height: 100%;
           background-color: red; }
     .typography .col-md-12 .orunlist {
@@ -312,9 +312,91 @@
         margin: 10px 0; }
         .typography .col-md-12 .orunlist .line div {
           float: left;
-          width: 20%;
+          width: 10%;
           height: 100%;
           background-color: red; }
+  .typography .why {
+    margin-top: 10px;
+    margin-bottom: 20px; }
+    .typography .why .thisss {
+      margin: 0;
+      width: 95%; }
+    .typography .why .line {
+      width: 95%;
+      height: 1px;
+      background-color: gray;
+      margin: 10px 0; }
+      .typography .why .line div {
+        float: left;
+        width: 10%;
+        height: 100%;
+        background-color: red; }
+    .typography .why .icons .fa-mobile {
+      margin-top: 12px;
+      color: white;
+      background-color: #F57E57;
+      padding: 20px 38px;
+      border-radius: 50%; }
+    .typography .why .icons .fa-user-md {
+      margin-top: 12px;
+      color: white;
+      background-color: #F57E57;
+      padding: 20px 28px;
+      border-radius: 50%; }
+    .typography .why .icons .fa-ambulance {
+      margin-top: 12px;
+      color: white;
+      background-color: #F57E57;
+      padding: 20px 25px;
+      border-radius: 50%; }
+  .typography .image100 {
+    margin-right: 35%; }
+    .typography .image100 img {
+      width: 95%;
+      height: 400px; }
+    .typography .image100 p {
+      margin-right: 5%;
+      padding: 15px 0; }
+      .typography .image100 p .ital {
+        font-style: italic; }
+      .typography .image100 p span {
+        color: gray; }
+    .typography .image100 .line {
+      width: 95%;
+      height: 1px;
+      background-color: gray;
+      margin: 10px 0; }
+      .typography .image100 .line div {
+        float: left;
+        width: 10%;
+        height: 100%;
+        background-color: red; }
+  .typography .imageleft {
+    margin-right: 35%; }
+    .typography .imageleft .line {
+      width: 100%;
+      height: 1px;
+      background-color: gray;
+      margin: 10px 0;
+      margin-bottom: 20px; }
+      .typography .imageleft .line div {
+        float: left;
+        width: 10%;
+        height: 100%;
+        background-color: red; }
+  .typography .imageright {
+    margin-right: 35%; }
+    .typography .imageright .line {
+      width: 100%;
+      height: 1px;
+      background-color: gray;
+      margin: 10px 0;
+      margin-bottom: 20px; }
+      .typography .imageright .line div {
+        float: left;
+        width: 10%;
+        height: 100%;
+        background-color: red; }
 
 .footer {
   height: auto;
