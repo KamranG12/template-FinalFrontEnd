@@ -236,7 +236,8 @@
   border-radius: 50%;
   top: 85%;
   left: 93%;
-  z-index: 2; }
+  z-index: 2;
+  display: none; }
   .abovebottom a {
     width: 15px;
     height: 15px; }

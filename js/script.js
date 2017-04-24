@@ -86,6 +86,17 @@ $(document).ready(function() {
        $('html, body').animate({ scrollTop: 0 }, "slow")
        return false;
    })
+
+   $(window).scroll(function() {
+    if ($(this).scrollTop()>300)
+     {
+        $('.abovebottom').fadeIn();
+     }
+    else
+     {
+      $('.abovebottom').fadeOut();
+     }
+ });
  }); 
 
 
