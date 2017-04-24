@@ -64,6 +64,10 @@ $color4:#f57e57;
             color: $color4;
         }
     }
+    ul{
+        height: 400px;
+        overflow-y: scroll; 
+    }
     .close{
         opacity: 1;
         .fa-times{

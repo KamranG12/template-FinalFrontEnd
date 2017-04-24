@@ -48,6 +48,9 @@
     .menu ul li a {
       text-decoration: none;
       color: #f57e57; }
+  .menu ul {
+    height: 400px;
+    overflow-y: scroll; }
   .menu .close {
     opacity: 1; }
     .menu .close .fa-times {

@@ -1097,6 +1097,10 @@ $p-color: #868686;
             color: $orange_;
         }
     }
+    ul{
+        height: 400px;
+        overflow-y: scroll; 
+    }
     .close{
         opacity: 1;
         .fa-times{

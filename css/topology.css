@@ -808,6 +808,9 @@
       .menumain ul li a {
         text-decoration: none;
         color: #F57E57; }
+    .menumain ul {
+      height: 400px;
+      overflow-y: scroll; }
     .menumain .close {
       opacity: 1; }
       .menumain .close .fa-times {
