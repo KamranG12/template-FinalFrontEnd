@@ -6,15 +6,15 @@ $(document).ready(function() {
         $('.menu').removeClass('fixed');
     }
 });
-    $('.fa-search').click(function(){
+    $('.menu .fa-search').click(function(){
     	$('.searchmenuhead').css('display','block');
-    	$('.fa-times').css('display','block')
+    	$('.menu .fa-times').css('display','block')
         $('.fa-search').css('display','none')
     })
 
-    $('.fa-times').click(function(){
+    $('.menu .fa-times').click(function(){
     	$('.searchmenuhead').css('display','none');
-    	$('.fa-times').css('display','none')
+    	$('.menu .fa-times').css('display','none')
         $('.fa-search').css('display','block')
     })
 
@@ -55,5 +55,16 @@ $(document).ready(function() {
       $('.abovebottom').fadeOut();
      }
  });
+
+   $('.menutab').click(function(){
+       $('.menumain').animate({left: '0'}, "slow");
+   })
+
+   $('.menumain .fa-times').click(function(){
+       $('.menumain').animate({left: '-400'}, "slow");
+       $('.menumain .fa-times').css({
+        display: 'block',     
+    });
+   })
 
  }); 
