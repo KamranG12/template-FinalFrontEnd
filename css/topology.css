@@ -600,6 +600,35 @@
       border-radius: 20px;
       box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15); }
 
+.grid {
+  width: 90%;
+  margin: 50px 0;
+  margin-left: 5%;
+  color: #868695; }
+  .grid h1 {
+    margin-top: 50px;
+    margin-left: 20px;
+    color: black; }
+  .grid .h1 {
+    padding-top: 50px; }
+  .grid h4 {
+    color: black; }
+  .grid .boxed {
+    margin: 100px 0; }
+    .grid .boxed .marg {
+      margin: 20px;
+      padding: 20px;
+      background-color: #f1f3f9; }
+    .grid .boxed .line {
+      width: 100%;
+      height: 2px;
+      margin-left: 20px; }
+      .grid .boxed .line div {
+        float: left;
+        width: 10%;
+        height: 100%;
+        background-color: #F57E57; }
+
 .footer {
   width: 100%;
   height: auto;
@@ -731,8 +760,5 @@
     transition: 0.5s;
     background-color: #18AFD3;
     color: white; }
-
-.content {
-  height: 1000px; }
 
 /*# sourceMappingURL=topology.css.map */
