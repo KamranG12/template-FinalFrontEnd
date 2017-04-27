@@ -733,6 +733,24 @@
 .tabac .accordion .panel-body {
   display: none; }
 
+.table h4 {
+  color: #434445;
+  margin-top: 80px; }
+.table .maincolorhead {
+  background-color: #18AFD3;
+  color: white; }
+.table .line {
+  width: 100%;
+  height: 1px;
+  background-color: #868686;
+  margin: 10px 0;
+  margin-bottom: 20px; }
+  .table .line div {
+    float: left;
+    width: 8%;
+    height: 100%;
+    background-color: #F57E57; }
+
 .footer {
   width: 100%;
   height: auto;
@@ -872,6 +890,9 @@
   display: none; }
 
 @media only screen and (max-width: 1200px) {
+  .abovebottom {
+    left: 85%; }
+
   .menu {
     display: none; }
 
@@ -938,6 +959,9 @@
   .header .center {
     display: none; }
   .header .right {
-    display: none; } }
+    display: none; }
+
+  .abovebottom {
+    left: 83%; } }
 
 /*# sourceMappingURL=topology.css.map */
