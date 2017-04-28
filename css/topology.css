@@ -751,6 +751,55 @@
     height: 100%;
     background-color: #F57E57; }
 
+.progresspage .textcenter {
+  text-align: center; }
+.progresspage h4 {
+  margin-top: 50px;
+  margin-bottom: 20px; }
+.progresspage h1 {
+  font-size: 55px; }
+.progresspage h3 {
+  color: #18AFD3;
+  font-weight: 700; }
+.progresspage .line1 {
+  width: 100%;
+  height: 1px;
+  background-color: gray;
+  margin: 10px 0;
+  margin-bottom: 20px; }
+  .progresspage .line1 div {
+    float: left;
+    width: 10%;
+    height: 100%;
+    background-color: #F57E57; }
+.progresspage .line {
+  margin-bottom: 20px;
+  width: 100%;
+  height: 2px;
+  margin-left: 20px; }
+  .progresspage .line div {
+    float: left;
+    margin-left: 34%;
+    width: 20%;
+    height: 100%;
+    background-color: #F57E57; }
+.progresspage .downloadbars .hhhhh {
+  width: 100%; }
+  .progresspage .downloadbars .hhhhh h4 {
+    color: #868686;
+    margin-top: 0;
+    margin-bottom: 2px; }
+  .progresspage .downloadbars .hhhhh h5 {
+    float: right;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #18AFD3;
+    font-size: 20px; }
+.progresspage .downloadbars .progress-bar {
+  width: 100%;
+  background-color: #F57E57; }
+
 .footer {
   width: 100%;
   height: auto;

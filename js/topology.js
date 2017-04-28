@@ -1,4 +1,34 @@
+// var value=0
+// $.fn.Progress=function(deyer){
+//   var self=this;
+//   $(window).one('scroll',function() {
+//     var myVar = setInterval(function(){ myTimer() }, 1);
+//     function myTimer(){ value++; $(self).text(value);
+//    if(value==deyer){
+//       clearInterval(myVar);
+//     }
+//   };  
+// });
+// }
+
+
+
+
+
+
 $(document).ready(function() {
+  // $('.h21').Progress(15);
+  // $('.h22').Progress(349);
+  // $('.h23').Progress(506);
+  // $('.h24').Progress(8);
+
+
+
+
+
+
+
+
     $(window).bind('scroll', function () {
     if ($(window).scrollTop() > 150) {
         $('.menu').addClass('fixed');
@@ -55,6 +85,48 @@ $(document).ready(function() {
       $('.abovebottom').fadeOut();
      }
  });
+   
+
+   var value=0
+  $(window).one('scroll',function() {
+    var myVar = setInterval(function(){ myTimer() }, 50);
+    function myTimer(){ value++; $('.year').text(value);
+   if(value==15){
+      clearInterval(myVar);
+    }
+  };  
+});
+
+  var value2=0
+  $(window).one('scroll',function() {
+    var myVar2 = setInterval(function(){ myTimer2() },0.00000000001);
+    function myTimer2(){ value2++; $('.patient').text(value2);
+   if(value2==349){
+      clearInterval(myVar2);
+    }
+  };  
+});
+
+  var value3=0
+  $(window).one('scroll',function() {
+    var myVar3 = setInterval(function(){ myTimer3() },10);
+    function myTimer3(){ value3++; $('.doctor').text(value3);
+   if(value3==56){
+      clearInterval(myVar3);
+    }
+  };  
+});
+
+  var value4=0
+  $(window).one('scroll',function() {
+    var myVar4 = setInterval(function(){ myTimer4() },100);
+    function myTimer4(){ value4++; $('.depart').text(value4);
+   if(value4==8){
+      clearInterval(myVar4);
+    }
+  };  
+});
+
 
    $('.menutab').click(function(){
        $('.menumain').animate({left: '0'}, "slow");
