@@ -128,6 +128,48 @@ $(document).ready(function() {
 });
 
 
+
+  var load=0;
+  $(window).one('scroll',function() {
+    var w=parseInt($(document).scrollTop())
+    if (w>500){
+    var myLoad = setInterval(function(){ LoadTimer() },15);
+    function LoadTimer(){ load++;
+      $('.ellifaiz').text(load+'%')
+     $('.loadbar').css('width',load+'%');
+   if(load==50){
+      clearInterval(myLoad);
+    }
+  }
+  }  
+});
+
+  var load1=0;
+  $(window).one('scroll',function() {
+    var myLoad1 = setInterval(function(){ LoadTimer1() },50);
+    function LoadTimer1(){ load1++;
+      $('.iyirmifaiz').text(load1+'%')
+     $('.loadbar1').css('width',load1+'%');
+   if(load1==20){
+      clearInterval(myLoad1);
+    }
+  };  
+});
+
+
+  var load2=0;
+  $(window).one('scroll',function() {
+    var myLoad2 = setInterval(function(){ LoadTimer2() },10);
+    function LoadTimer2(){ load2++;
+      $('.seksenfaiz').text(load2+'%')
+     $('.loadbar2').css('width',load2+'%');
+   if(load2==87){
+      clearInterval(myLoad2);
+    }
+  };  
+});
+
+
    $('.menutab').click(function(){
        $('.menumain').animate({left: '0'}, "slow");
    })
