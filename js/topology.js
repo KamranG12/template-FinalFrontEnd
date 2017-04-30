@@ -130,9 +130,10 @@ $(document).ready(function() {
 
 
   var load=0;
-  $(window).one('scroll',function() {
-    var w=parseInt($(document).scrollTop())
-    if (w>500){
+ 
+  $(window).on('scroll',function() {
+
+    console.log(w)
     var myLoad = setInterval(function(){ LoadTimer() },15);
     function LoadTimer(){ load++;
       $('.ellifaiz').text(load+'%')
@@ -141,7 +142,7 @@ $(document).ready(function() {
       clearInterval(myLoad);
     }
   }
-  }  
+  $(window).off('scroll')  
 });
 
   var load1=0;
@@ -165,6 +166,18 @@ $(document).ready(function() {
      $('.loadbar2').css('width',load2+'%');
    if(load2==87){
       clearInterval(myLoad2);
+    }
+  };  
+});
+
+  var load3=0;
+  $(window).one('scroll',function() {
+    var myLoad3 = setInterval(function(){ LoadTimer3() },50);
+    function LoadTimer3(){ load3++;
+      $('.otuzyeddi').text(load3+'%')
+     $('.loadbar3').css('width',load3+'%');
+   if(load3==37){
+      clearInterval(myLoad3);
     }
   };  
 });
