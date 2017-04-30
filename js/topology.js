@@ -130,10 +130,10 @@ $(document).ready(function() {
 
 
   var load=0;
- 
+   console.log(w)
   $(window).on('scroll',function() {
 
-    console.log(w)
+  
     var myLoad = setInterval(function(){ LoadTimer() },15);
     function LoadTimer(){ load++;
       $('.ellifaiz').text(load+'%')
