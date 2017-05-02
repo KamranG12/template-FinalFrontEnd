@@ -616,9 +616,14 @@ $color4:#f57e57;
         }
     }
      .threedots2{
-            width: 120px;
+            width: 360px;
             height: 40px;
             margin-left: 45%;
+            }
+            .threedots21{
+              width: 90px;
+              height: 40px; 
+              overflow: hidden; 
             }
 
             .dot2{
@@ -824,6 +829,9 @@ $color4:#f57e57;
 
 
  @media only screen and (max-width: 1024px) {
+    .abovebottom{
+        left: 85%;
+    }
     .headcantainer{ 
         .phone{
          display: none;
@@ -880,6 +888,20 @@ $color4:#f57e57;
     .footer .col-md-12 .information .fa-facebook{
         margin-left: 25%;
     }
+
+    .team{
+       .mainteam{
+        .fullteam{
+          width: 450%;
+        }
+       }
+       .threedots2{
+         margin-left: 35%;
+          .threedots21{
+           width: 140px;
+       }
+       } 
+    }
  }
 
 
@@ -888,6 +910,9 @@ $color4:#f57e57;
 
 
   @media only screen and (max-width: 768px){
+    .opening{
+        margin-top: 500px;
+    }
     .head{
     img{
         height: 180%;
@@ -901,4 +926,18 @@ $color4:#f57e57;
         margin-top: 1000px;
         height: 400px;
     }
+    .team{
+       .mainteam{
+        .fullteam{
+          width: 900%;
+        }
+       }
+       .threedots2{
+         margin-left: 25%;
+          .threedots21{
+           width: 360px;
+       }
+       } 
+    }
+
   }

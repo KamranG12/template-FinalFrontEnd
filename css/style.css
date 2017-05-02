@@ -483,9 +483,13 @@
           transition: 0.5s;
           background-color: #18afd3; }
 .team .threedots2 {
-  width: 120px;
+  width: 360px;
   height: 40px;
   margin-left: 45%; }
+.team .threedots21 {
+  width: 90px;
+  height: 40px;
+  overflow: hidden; }
 .team .dot2 {
   width: 15px;
   height: 15px;
@@ -636,6 +640,9 @@
           color: white; }
 
 @media only screen and (max-width: 1024px) {
+  .abovebottom {
+    left: 85%; }
+
   .headcantainer .phone {
     display: none; }
   .headcantainer a {
@@ -676,8 +683,18 @@
     height: 700px; }
 
   .footer .col-md-12 .information .fa-facebook {
-    margin-left: 25%; } }
+    margin-left: 25%; }
+
+  .team .mainteam .fullteam {
+    width: 450%; }
+  .team .threedots2 {
+    margin-left: 35%; }
+    .team .threedots2 .threedots21 {
+      width: 140px; } }
 @media only screen and (max-width: 768px) {
+  .opening {
+    margin-top: 500px; }
+
   .head img {
     height: 180%; }
 
@@ -686,6 +703,13 @@
 
   .footer {
     margin-top: 1000px;
-    height: 400px; } }
+    height: 400px; }
+
+  .team .mainteam .fullteam {
+    width: 900%; }
+  .team .threedots2 {
+    margin-left: 25%; }
+    .team .threedots2 .threedots21 {
+      width: 360px; } }
 
 /*# sourceMappingURL=style.css.map */
